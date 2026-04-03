@@ -51,9 +51,5 @@ test.only('Login with above creds or existing account', async({page})=>{
             console.log("ADIDAS ORIGINAL is present in the List");
             break;
         }
-
-        //await expect(allProductList.nth(i)).toHaveText("ADIDAS ORIGINAL");
-        //await expect(page.locator(".card-body b").nth(i)).toContainText("ADIDAS ORIGINAL");
-        //await expect(productList.nth(i)).toHaveText("ADIDAS ORIGINAL");
     }
 });
