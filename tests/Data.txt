@@ -1,0 +1,9 @@
+By Default javascript is asyncornous, to handle we have to add await in each steps.
+To activate await we need to add "async" with function. i.e, async function()
+In latest javascript, function() is not added so it by default act as a anonimous function.
+So, we can also write "test('My First Playwright Test', async function()" as "test('My First Playwright Test', async ()=>" to make it light code.
+
+test.only = Run a specific test only where 'only" is mentioned.
+
+page.locator = It will search on complete page of the HTML.
+locator Chaining = It will search on the particluar HTML code where initial locator points.
